@@ -1,0 +1,208 @@
+h1 {
+  display: block;
+  text-align: center;
+}
+
+a {
+  display: block;
+  font-size: 20px;
+  margin: 5px auto 10px;
+  text-align: center;
+}
+
+.tabla_productos {
+  margin: 0 auto;
+  max-width: 720px;
+  min-width: 250px;
+  width: 100%;
+  text-align: center;
+}
+
+.form {
+  margin: 0 auto;
+  max-width: 700px;
+  min-width: 300px;
+  width: 100%;
+  text-align: center;
+}
+
+.form label {
+  display: block;
+  margin-top: 10px;
+}
+
+.form input {
+  display: block;
+  margin: 0 auto;
+}
+
+button {
+  margin-top: 15px;
+}
+
+.no_hay_productos {
+  display: block;
+  font-size: 25px;
+  color: #ff0000;
+  text-align: center;
+}
+
+#chat {
+  margin: 10px auto;
+  text-align: center;
+  width: 100%;
+}
+
+#chat_messages {
+  border-color: #666666;
+  border-style: solid;
+  max-height: 300px;
+  min-height: 300px;
+  overflow-y: scroll;
+  text-align: left;
+}
+
+#chat_messages img {
+  width: 36px;
+  height: 36px;
+}
+
+.chat_message_mail,
+.chat_message_date,
+.chat_message_message {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.chat_message_mail {
+  color: blue;
+  font-style: bold;
+}
+.chat_message_date {
+  color: brown;
+}
+.chat_message_message {
+  color: green;
+  font-style: italic;
+}
+
+.normalizacion_etiqueta {
+  font-size: 20px;
+}
+
+.cartel_bienvenido {
+  align-items: center;
+  background-color: #99ff99;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 15px auto;
+  min-width: 400px;
+  width: 90%;
+}
+
+.cartel_bienvenido--texto {
+  color: #22aa22;
+  font-size: 1.5rem;
+  margin: 15px;
+}
+
+#boton_desloguear {
+  background-color: #ffff55;
+  border: 1px;
+  border-radius: 10px;
+  margin: auto 15px;
+  padding: 8px;
+}
+
+.login {
+  background-color: #ddddff;
+  margin: 15px auto;
+  min-width: 400px;
+  padding: 20px;
+  width: 90%;
+}
+
+.login_titulo {
+  color: #0000ff;
+  display: block;
+  font-size: 3rem;
+  padding: 10px;
+}
+
+.login_label {
+  color: #000000;
+  display: block;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 10px;
+}
+
+#username {
+  display: block;
+  margin: 15px auto;
+  padding: 2px;
+  width: 90%;
+}
+
+#login_submit {
+  background-color: #33aa33;
+  border: 1px;
+  border-radius: 10px;
+  color: #ffffff;
+  margin: auto 15px;
+  padding: 8px;
+}
+
+.logout_cartel {
+  background-color: #ddddff;
+  color: #0000ff;
+  font-size: 2rem;
+  margin: 15px auto;
+  min-width: 400px;
+  padding: 20px;
+  width: 90%;
+}
+
+/**
+ ERROR
+ */
+
+.error {
+  background-color: #ff6666;
+  margin: 0 auto;
+  padding: 25px;
+  text-align: center;
+  width: 90%;
+}
+
+.error_message {
+  color: #ffffff;
+  display: block;
+  font-size: 1.5rem;
+  margin: 0 auto;
+}
+
+#go_back {
+  background-color: #ffff00;
+  border: 1px;
+  border-radius: 10px;
+  color: #000000;
+  cursor: pointer;
+  margin: 15px 15px;
+  padding: 8px;
+}
+
+.inner_link {
+  background-color: #339933;
+  border: 1px;
+  border-radius: 10px;
+  color: #ffffff;
+  display: block;
+  cursor: pointer;
+  margin: 15px 15px;
+  max-width: 100px;
+  padding: 8px;
+  text-decoration: none;
+}
